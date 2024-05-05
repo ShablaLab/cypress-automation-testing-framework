@@ -1,4 +1,4 @@
-# ypress-automation-testing-framework 
+# cypress-automation-testing-framework 
 
 This guide explores the concept of a Cypress.js boilerplate and how it can streamline your Cypress testing workflow.
 
