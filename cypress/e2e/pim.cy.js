@@ -1,4 +1,4 @@
-import pimSteps from "../support/steps/pim.steps.js";
+import pimSteps from "../support/step_definitions/pim.steps.js";
 
 describe("passenger information spec", () => {
     it("able to search with employee name", () => {

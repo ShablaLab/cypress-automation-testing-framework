@@ -24,8 +24,8 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import homeSteps from "./steps/home.steps.js";
-import loginSteps from "./steps/login.steps.js";
+import homeSteps from "./step_definitions/home.steps.js";
+import loginSteps from "./step_definitions/login.steps.js";
 
 Cypress.Commands.add("login", () => {
     cy.visit("/");

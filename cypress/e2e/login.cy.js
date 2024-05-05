@@ -1,5 +1,5 @@
-import homeSteps from "../support/steps/home.steps.js";
-import loginSteps from "../support/steps/login.steps.js";
+import homeSteps from "../support/step_definitions/home.steps.js";
+import loginSteps from "../support/step_definitions/login.steps.js";
 
 describe("login spec", () => {
     let userData;
@@ -24,5 +24,14 @@ describe("login spec", () => {
             userData.invalidUser.password
         );
         homeSteps.shouldNotBeDisplayed();
+    });
+
+    it("negative test case for demo purpose", () => {
+        loginSteps.open();
+        loginSteps.login(
+            userData.invalidUser.username,
+            userData.invalidUser.password
+        );
+        homeSteps.shouldBeDisplayed();
     });
 });

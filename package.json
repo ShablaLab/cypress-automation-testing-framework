@@ -4,7 +4,7 @@
     "description": "A quickly start of a Cypress project",
     "scripts": {
         "cy:open": "cypress open",
-        "cy:e2e": "cypress run --spec cypress/e2e/**/*.js",
+        "cy:test": "cypress run --spec cypress/e2e/**/*.js",
         "report": "allure serve allure-results"
     },
     "keywords": [],

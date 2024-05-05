@@ -15,6 +15,7 @@ class PimPage {
 
     empName(name) {
         this.txt_empName.type(name);
+        return this;
     }
     search() {
         this.btn_Search.click();
