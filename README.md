@@ -27,7 +27,7 @@ Make sure you have the following dependencies installed:
 6. Run the tests using one of the available commands:
    - Run tests in interactive mode: `npm run cy:test -- --browser=chrome --headed`
    - Run tests in headless mode: `npm run cy:test`
-   - Run tests in interactive mode for a specific spec: ` npm run cy:test -- --spec cypress/e2e/features/address.feature --headed`
+   - Run tests in interactive mode for a specific spec: ` npm run cy:test -- --spec cypress/e2e/login.cy.js --headed`
 
 ## Configuration
 
